@@ -29,7 +29,13 @@ const config: Config = {
         'light-green': '#4E6C50',
         'dark-sand': '#AA8B56',
         'light-sand': '#F0EBCE',
-      }
+      },
+      screens: {
+        'mdl': '860px',
+        '2xl': '1360px',
+        '3xl': '1600px',
+        '4xl': '1920px'
+      },
     },
   },
   plugins: [],
