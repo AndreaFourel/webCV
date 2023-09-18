@@ -7,4 +7,24 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F0EBCE;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #395144;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4E6C50;
+}

@@ -21,6 +21,10 @@ const config: Config = {
         "6xl": "50px",
         "7xl": "70px",
       },
+      fontFamily: {
+        "inter": "var(--font-inter)",
+        "courgette": "var(--font-courgette)"  
+      },
       borderWidth: {
         '250': '250px'
       },
